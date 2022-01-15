@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width:992px;
+      margin:auto;
+
+    }
+
+    .row {
+      width:100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis:calc(100% / 3);
+      padding-left:8px;
+      padding-right:8px;
+    }
+    h3{
+      text-align:center;
+
+    }
+    h4{
+      text-align:left;
+    }
+    img{
+      width:100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h3>Indiana Jones</h3>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <h4>Raiders of the Lost Ark</h4>
+        <p>This film is great and I love to watch it over and over again.I like how he uses the whip for everything.This particular film is when an archaeologist tries to beat a band of nazis to a unique religious relic which is central to their plans for world domination.</p>
+      </div>
+
+      <div class="column"><img src="images/temple.jpg">
+        <h4>Temple of Doom</h4>
+        <p>The film is great and I also like to go on the ride at disneyland. I am not sure how many movies there are but I like to watch them even till this day.In this film Indian Jones goes on a dsngerous adventure in order to search for the magical Sankara stone.</p>
+      </div>
+      <div class="column"> <img src="images/crusade.jpg">
+        <h4>The Last Crusade</h4>
+        <p>In this film the explorer Indiana Jones sets out to rescue his father, a medievalist who has vanished while searching for the Holy Grail.I have never seen this particular movie but I have seen the other ones and I am sure they are just as good and when I have time I will certainly put this on my things to do list.</p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+</body>
+</html>
